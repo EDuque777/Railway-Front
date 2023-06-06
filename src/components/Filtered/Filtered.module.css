@@ -1,11 +1,11 @@
 .container {
     display: flex;
-    margin-top: 20px;
-    padding-left: 16.3rem;
+    margin-top: 0.1vw;
+    padding-left: 6.5vw;
 }
 
-.input {
-    font-size: 1.25rem;
+/* .input {
+    font-size: 1.25vw;
     background-color: white;
     color: black;
     border-radius: 1rem;
@@ -13,32 +13,32 @@
     padding: 0.3rem;
     margin: 1rem;
     font-family: "Times New Roman";
-}
+} */
 
 .search {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -10px;
-    margin-left: 100px;
-    border-radius: 1rem;
-    width: 16rem;
+    margin-top: 0.5vw;
+    margin-left: 10.2vw;
+    border-radius: 1vw;
+    width: 15vw;
     background-color: gold;
-    padding: 0.5rem;
-    border: 1px solid gold;
-    font-size: 1.5rem;
+    padding: 0.3vw;
+    border: 0.1vw solid gold;
+    font-size: 1.6vw;
     font-family: "Times New Roman";
     transition: background-color 0.5s;
 }
 
 .search:hover{
-    border: 2px solid gold;
+    border: 0.1vw solid gold;
     background-color: black;
     color: gold;
 }
 
-.order {
+/* .order {
     display: flex;
-    margin-top: 20px;
+    margin-top: 100vw;
     padding-left: 16.3rem;
-}
+} */

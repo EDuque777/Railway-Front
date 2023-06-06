@@ -1,27 +1,27 @@
 .container {
     display: flex;
-    margin-top: 20px;
-    padding-left: 16.3rem;
+    margin-top: 0.4vw;
+    padding-left: 7vw;
 }
 
 .button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -10px;
-    margin-left: 100px;
-    border-radius: 1rem;
-    width: 16rem;
+    margin-top: 0.1vw;
+    margin-left: 9.9vw;
+    border-radius: 1vw;
+    width: 15vw;
     background-color: gold;
-    padding: 0.5rem;
-    border: 1px solid gold;
-    font-size: 1.5rem;
+    padding: 0.3vw;
+    border: 0.1vw solid gold;
+    font-size: 1.6vw;
     font-family: "Times New Roman";
     transition: background-color 0.5s;
 }
 
 .button:hover{
-    border: 2px solid gold;
+    border: 0.1vw solid gold;
     background-color: black;
     color: gold;
 }
