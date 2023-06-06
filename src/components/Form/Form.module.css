@@ -180,3 +180,8 @@
     background-size: cover;
     background-image: url('https://img.freepik.com/vector-gratis/papel-pintado-mural-restaurante_23-2148706001.jpg?w=2000');
 }
+
+.order {
+    display: flex;
+    padding-left: 37vw;
+}

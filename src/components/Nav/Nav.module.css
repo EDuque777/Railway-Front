@@ -25,3 +25,8 @@
     background-color: black;
     color: gold;
 }
+
+.order {
+    display: flex;
+    padding-left: 37vw;
+}

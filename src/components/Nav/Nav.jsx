@@ -46,13 +46,14 @@ import style from "./Nav.module.css"
             <SearchBar onSearch={handleSearch}/>
             <div className={style.container}>
             <button onClick={handleHome} className={style.button}>Home</button>
-            <button onClick={handleLogin} className={style.button}>Log aut</button>
+            <button onClick={handleLogin} className={style.button}>Log Out</button>
             <button onClick={handlecreateRecipe} className={style.button}>Create recipe</button>
             </div>
             <Filtered/>
 
       { location.pathname === '/home/search' && recipes.map(({id, name, image, summary, healthScore, steps, diets}) => {
                return (
+                <div className={style.order}>
                   <Card
                      key={id}
                      id={id}
@@ -63,6 +64,7 @@ import style from "./Nav.module.css"
                      steps={steps}
                      diets={diets.join(", ")}
                   />
+                </div>
                )
             })
           }

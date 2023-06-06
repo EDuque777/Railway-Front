@@ -37,8 +37,13 @@
     color: gold;
 }
 
-/* .order {
+.order {
     display: flex;
-    margin-top: 100vw;
-    padding-left: 16.3rem;
-} */
+    padding-left: 37vw;
+}
+
+.orderDb {
+    display: flex;
+    padding-left: 37vw;
+    padding-bottom: 10vw
+}

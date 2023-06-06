@@ -78,6 +78,7 @@ const Filtered = () => {
 
             { location.pathname === '/home/filter' && recipes.map(({id, name, image, summary, healthScore, steps, diets}) => {
                return (
+                <div className={style.order}>
                   <Card
                      key={id}
                      id={id}
@@ -88,12 +89,14 @@ const Filtered = () => {
                      steps={steps}
                      diets={diets.join(", ")}
                   />
+                </div>
                )
             })
           }
 
             { location.pathname === '/home/filterDb' && recipesDb.map(({id, name, image, summary, healthScore, steps, diets}) => {
                return (
+                <div className={style.orderDb}>
                   <Card
                      key={id}
                      id={id}
@@ -104,12 +107,14 @@ const Filtered = () => {
                      steps={steps}
                      diets={diets.join(", ")}
                   />
+                </div>
                )
             })
           }
 
             { location.pathname === '/home/order' && recipesOrder.map(({id, name, image, summary, healthScore, steps, diets}) => {
                 return (
+                    <div className={style.order}>
                     <Card
                         key={id}
                         id={id}
@@ -120,6 +125,7 @@ const Filtered = () => {
                         steps={steps}
                         diets={diets.join(", ")}
                     />
+                    </div>
                 )
                 })
             }
